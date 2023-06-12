@@ -11,7 +11,7 @@ const Content1 = () => {
                 <span className='italic'>Artistry of Studio Ghibli</span>
                 <br />
                 <br />
-                Artworks
+                <a href="#artworks">Artworks</a>
             </p>
       </div>
       <div  className='mx-[20px] my-[20px] md:my-[0px]'>

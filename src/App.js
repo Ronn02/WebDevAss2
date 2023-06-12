@@ -7,10 +7,19 @@ import Artworks from "./components/Artworks";
 function App() {
   return (
     <div className='font-maitree'>
-      <Navbar/>
-      <Content1/>
-      <About/>
-      <Artworks/>
+      <Navbar />
+
+      <section id="content1">
+        <Content1 />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+      
+      <section id="artworks">
+        <Artworks />
+      </section>
     </div>
   );
 }

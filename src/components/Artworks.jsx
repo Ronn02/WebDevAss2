@@ -29,24 +29,24 @@ const Artworks = () => {
           <tbody>
             <tr className="flex flex-col md:flex-row">
               <td className="p-2 cursor-pointer hover:shadow-lg" onClick={() => openModal(img1)}>
-                <img src={img1} alt="" className="h-[300px] w-[200px] transition-transform duration-300 hover:scale-105" />
+                <img src={img1} alt="" className="h-[300px] w-[250px] transition-transform duration-300 hover:scale-105" />
               </td>
               <td className="p-2 cursor-pointer hover:shadow-lg" onClick={() => openModal(img2)}>
-                <img src={img2} alt="" className="h-[300px] w-[200px] transition-transform duration-300 hover:scale-105" />
+                <img src={img2} alt="" className="h-[300px] w-[250px] transition-transform duration-300 hover:scale-105" />
               </td>
               <td className="p-2 cursor-pointer hover:shadow-lg" onClick={() => openModal(img3)}>
-                <img src={img3} alt="" className="h-[300px] w-[200px] transition-transform duration-300 hover:scale-105" />
+                <img src={img3} alt="" className="h-[300px] w-[250px] transition-transform duration-300 hover:scale-105" />
               </td>
             </tr>
             <tr className="flex flex-col md:flex-row">
               <td className="p-2 cursor-pointer hover:shadow-lg" onClick={() => openModal(img5)}>
-                <img src={img5} alt="" className="h-[300px] w-[200px] transition-transform duration-300 hover:scale-105" />
+                <img src={img5} alt="" className="h-[300px] w-[250px] transition-transform duration-300 hover:scale-105" />
               </td>
               <td className="p-2 cursor-pointer hover:shadow-lg" onClick={() => openModal(img7)}>
-                <img src={img7} alt="" className="h-[300px] w-[200px] transition-transform duration-300 hover:scale-105" />
+                <img src={img7} alt="" className="h-[300px] w-[250px] transition-transform duration-300 hover:scale-105" />
               </td>
               <td className="p-2 cursor-pointer hover:shadow-lg" onClick={() => openModal(img9)}>
-                <img src={img9} alt="" className="h-[300px] w-[200px] transition-transform duration-300 hover:scale-105" />
+                <img src={img9} alt="" className="h-[300px] w-[250px] transition-transform duration-300 hover:scale-105" />
               </td>
             </tr>
           </tbody>
