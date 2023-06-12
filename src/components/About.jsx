@@ -10,7 +10,7 @@ const About = () => {
                  made their films beloved by audiences around the world. Many of their films feature stunning 
                  landscapes and backgrounds that are often inspired by real-world locations in Japan, adding to 
                  the authenticity and beauty of their artwork.</p>
-                 <hr className='border-t border-black my-[50px]' />
+                 <hr className='border-t border-black my-[50px]'/>
         </div>
     </div>
   );
