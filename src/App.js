@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Content1 from "./components/Content1";
 import About from "./components/About";
 import Artworks from "./components/Artworks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <section id="artworks">
         <Artworks />
       </section>
+
+      <secton id="footer">
+        <Footer />
+      </secton>
     </div>
   );
 }
