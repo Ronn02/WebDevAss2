@@ -6,6 +6,7 @@ import img3 from '../assets/content3.jpg';
 import img5 from '../assets/content5.jpg';
 import img7 from '../assets/content7.jpg';
 import img9 from '../assets/content9.jpg';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Artworks = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -63,7 +64,7 @@ const Artworks = () => {
           <img src={selectedImage} alt="Enlarged Image" className="max-w-full max-h-[500px] m-[15px]" />
         )}
         <button className="absolute top-4 right-4 text-white text-xl" onClick={closeModal}>
-          Close
+        < AiOutlineClose size={20}/>
         </button>
       </Modal>
     </div>
