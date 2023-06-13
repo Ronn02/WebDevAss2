@@ -4,6 +4,7 @@ import Content1 from "./components/Content1";
 import About from "./components/About";
 import Artworks from "./components/Artworks";
 import Footer from "./components/Footer";
+import YoutubeVid from "./components/YoutubeVid";
 
 function App() {
   return (
@@ -14,9 +15,14 @@ function App() {
         <Content1 />
       </section>
 
+      <section id="youtubevid">
+      <YoutubeVid/>
+      </section>
+
       <section id="about">
         <About />
       </section>
+      
       
       <section id="artworks">
         <Artworks />

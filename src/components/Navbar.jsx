@@ -17,6 +17,9 @@ const Navbar = () => {
           <a href="#content1">Home</a>
         </li>
         <li className="p-4">
+          <a href="#youtubevid">Discover</a>
+        </li>
+        <li className="p-4">
           <a href="#about">About</a>
         </li>
         <li className="p-4">
@@ -35,6 +38,9 @@ const Navbar = () => {
         <ul className="uppercase p-4">
           <li className="p-4 border-b border-gray-600">
             <a href="#content1">Home</a>
+          </li>
+          <li className="p-4 border-b border-gray-600">
+            <a href="#youtubevid">Discover</a>
           </li>
           <li className="p-4 border-b border-gray-600">
             <a href="#about">About</a>
