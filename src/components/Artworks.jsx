@@ -25,7 +25,7 @@ const Artworks = () => {
   return (
     <div className="w-full h-1000 flex flex-col md:flex-row justify-center items-center">
       <div className="text-black">
-        <h1 className="text-center mb-50">ARTWORKS</h1>
+        <h1 className="text-center mb-50 text-2xl font-bold">ARTWORKS</h1>
         <table className="">
           <tbody>
             <tr className="flex flex-col md:flex-row">

@@ -5,6 +5,7 @@ import About from "./components/About";
 import Artworks from "./components/Artworks";
 import Footer from "./components/Footer";
 import YoutubeVid from "./components/YoutubeVid";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -28,9 +29,15 @@ function App() {
         <Artworks />
       </section>
 
+      <section id="carousel">
+        <Carousel />
+      </section>
+
       <secton id="footer">
         <Footer />
       </secton>
+
+
     </div>
   );
 }
